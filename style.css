@@ -1,0 +1,237 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.hero{
+    background-color: #000;
+    margin: auto;
+    width: 95%;
+    border-radius: 30px;
+   
+}
+
+.hero-section{
+    margin-top: 50px;
+    display: flex;
+    width: 85%;
+    justify-content: center;
+}
+.hero-left{
+    margin-left: 20%;
+    width: 35%;
+}
+.hero-right{ 
+    width: 50%;
+}
+.hero-right img{
+    margin-left: 10%;
+    width: 90%;
+    height: 100%;
+}
+.hero-head-title h1{
+    font-size: 78px;
+    color: #fff;
+}
+.hero-sub-txt p{
+    font-size: 20px;
+    color: rgb(206, 202, 202);
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.Watch-btn{
+    margin-top: 30px;
+    height: 60px;
+    width: 190px;
+    background-color: red;
+    border-radius: 8px;
+}
+.Watch-btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.fa-solid{ 
+    color: #fff;
+}
+.hero-right .fa-solid{
+    margin-left: 10px;
+}
+
+
+/* =======================section=================*/
+.items-box{
+    display: flex;
+    margin-top: 10%;
+    /* margin: auto; */
+    width: 95%;
+}
+.button-left{
+    margin-left: 50px;
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+    background-color: rgb(14, 13, 13);
+}
+.link-btn{
+    padding-top: 120px;
+    text-align: center;
+    height: 250px;
+
+}
+.link-btn .link-btn-1 a{
+    background-color: #fff;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+}
+.links-btn-1 .links-1{
+    background-color: red;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+}
+.links-btn-1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.link-btn-1 a{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    background-color: #fff;
+}
+
+.link-btn-1 {
+    height: 60px;
+}
+
+.carts{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 40px;
+}
+
+.carts .div-right{
+    margin-left: 75px;
+}
+
+.div-right .items-cart img{
+    width: 400px;
+    height: 270px;
+}
+.items-cart{
+    width: 400px;
+    height: 453px;
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+.div-right{
+    background-color: rgb(242, 239, 239);
+    border-radius: 8px;
+}
+.items-cart h3{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.items-carts{
+    display: flex;
+}
+.items-carts-img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;  
+    justify-items: center;
+}
+.items-carts img{
+    height: 80px;
+    width: 170px;
+}
+.items-carts h3{
+    font-size: 30px; 
+}
+.transfer-btn{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-top: 6px;
+    height: 30px;
+    width: 71px;
+    border-radius: 5px;
+}
+.transfer-btn a{
+    text-decoration: none;  
+    color: #000; 
+    font-size: 15px;
+    font-weight: 700;
+}
+.footers{
+    text-align: center;
+
+}
+.footer{
+    display: flex;
+}
+.footer .footer-img img{
+    height: 20px;
+    width: 15px;
+    padding-left: 20px;
+}
+
+/* ===============footer section================ */
+
+.footer-section{
+    margin: auto;
+    /* width: 95%; */
+    height: 400px;
+    margin-top: 10%;
+    background-color: #000;
+}
+
+.footer-title h2{
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
+    font-size: 35px;
+}
+.lines{
+    background-color: rgb(104, 104, 104);
+    height: 1px;
+    width: 80%;
+    margin-top: 80px;
+    margin-left: 160px;
+}
+.footer-nav .nav-items li a{
+    color: rgb(230, 230, 230);
+    font-size: 22px;
+    /* align-items: center; */
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer-nav .nav-items li{
+    float: left
+}
+.nav-items{
+    padding-top: 60px;
+}
+.nav-items .footer-link a{
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 112px;
+}
+
+/* ========== Media Queries =========*/
+
+/* Mobile Devices */
+/* 
+@media only screen and (max-width:668px) {
+    .carts{
+        background-color: aqua;
+    }
+    
+} */
